@@ -16,7 +16,7 @@ pipeline {
             steps {
               sh '''
                   #oc start-build --from-build=<build_name>
-                  oc start-build --from-build=red-api
+                  oc start-build red-api
               '''
             }
         }
